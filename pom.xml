@@ -22,7 +22,7 @@ Copyright 2015 Google Inc.
   <groupId>com.example.appengine</groupId>
   <artifactId>appengine-helloworld</artifactId>
   
-
+ 
   
   <dependencies>
     <dependency>
@@ -47,10 +47,10 @@ Copyright 2015 Google Inc.
       </plugin>
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
       <plugin>
-        <groupId>com.google.appengine</groupId>
-        <artifactId>appengine-maven-plugin</artifactId>
-        <version>1.8</version>
-      </plugin>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>1.9.9</version>
+        </plugin>
     </plugins>
   </build>
 </project>
